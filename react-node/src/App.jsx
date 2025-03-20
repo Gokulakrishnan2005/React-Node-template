@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      <p className='p-20'>hello world to React!</p>
+      <p className='p-20'>hello world to React! went</p>
     </div>
   )
 }
