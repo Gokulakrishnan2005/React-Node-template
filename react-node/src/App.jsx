@@ -1,13 +1,15 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage  from './pages/HomePage.jsx';
+import Header from './componants/Header.jsx';
 
 
-function App() {
-
+export default function App() {
   return (
-    <div>
-      <p className='p-20'>hello world to React! went</p>
-    </div>
-  )
+    <BrowserRouter>
+      <Header />
+        <Routes>
+          <Route path="/home" element={<HomePage />} /> 
+        </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App
