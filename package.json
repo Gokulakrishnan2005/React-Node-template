@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon backend_server/index.js",
-    "dev": "nodemon backend_server/index.js"
+    "dev": "node backend_server/index.js"
   },
   "keywords": [],
   "author": "",
